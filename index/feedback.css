@@ -1,0 +1,75 @@
+.formgrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin:0 auto;
+    border: 5px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(180, 183, 226, 0.993);
+    color: rgb(54, 56, 48);
+    font-family: cursive;
+    font-size: 20px;
+}
+.form{
+    display:grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 10px;
+    
+}
+.formSubmit{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.formgrid h3{
+    color: rgb(107, 79, 7);
+    margin-top: -10px;
+    text-align: center;
+}
+.check{
+    font-size: 20px;
+}
+video{
+    width: 350px;
+    margin: 0 auto;
+    display: block;
+}
+.grid{
+    height: 850px;
+}
+.form2grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    width: 250px;
+    margin:0 auto;
+    border: 5px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(236, 176, 120, 0.993);
+    color: rgb(54, 56, 48);
+    font-family: cursive;
+    margin-top: 10px;
+    font-size: 20px;
+   
+}
+.form2{
+line-height: 50px;
+}
+.form2Submit{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+.form2grid h4{
+    font-size: 20px;
+    color: #424242;
+    margin-top: -10px;
+    text-align: center;
+    background-color: #FDD3CE;
+}
+.middle{
+    text-align: left;
+}
